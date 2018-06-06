@@ -1,0 +1,9 @@
+<nav>
+  <ul>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" ><a [routerLink]="['/']" > Dashboard </a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" ><a [routerLink]="['/login']" > Login </a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" ><a [routerLink]="['/register']" > Register </a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+
